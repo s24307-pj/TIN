@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+.header, .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+.menu-item {
+    margin-right: 10px;
+}
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.section-1, .section-2, .section-3, .section-4 {
+    padding: 20px;
+}
+.article-1, .article-2, .article-3 {
+    margin-bottom: 20px
+}
+.article-info {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    list-style-type: none;
+}
+.article-link {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 5px;
+}
+.aside {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.pricing-table {
+    width: 100%;
+    text-align: center;
+    collapse: 1;
+}
+th,td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.contact-form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-menu {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+.footer-menu, .menu-item {
+    margin-left: 15px;
+}
+.footer-menu, .menu-item a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn:active, .article-link:active {
+    background-color: #555;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+.logo {
+    width: 150px;
+}
+.heading-1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading-2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.heading-3 {
+    margin-bottom: 10px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 4px 8px rgba(0,0,0,0.1);
+}
+
